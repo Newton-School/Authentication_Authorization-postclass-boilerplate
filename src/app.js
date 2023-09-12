@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 
 const app = express();
-const secretKey = 'your-secret-key'; // Replace with your secret key
+const secretKey = 'newtonSchool';
 
 app.use(bodyParser.json());
 
